@@ -174,12 +174,22 @@ export const AboutUs: React.FC = () => {
         <h2 className="text-2xl font-bold mb-2">Get In Touch</h2>
         <p className="mb-4">Have questions about our implementation or want to contribute?</p>
         <div className="flex justify-center space-x-4">
-          <button className="bg-white text-purple-600 px-4 py-2 rounded-lg font-medium hover:bg-gray-100 transition-colors">
+          <a 
+            href="https://github.com/Shaurya07dev/LL_DSA" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-white text-purple-600 px-4 py-2 rounded-lg font-medium hover:bg-gray-100 transition-colors inline-block"
+          >
             GitHub Repository
-          </button>
-          <button className="bg-purple-700 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-800 transition-colors">
+          </a>
+          <a 
+            href="https://github.com/Shaurya07dev/LL_DSA/blob/main/README.md" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-purple-700 text-white px-4 py-2 rounded-lg font-medium hover:bg-purple-800 transition-colors inline-block"
+          >
             Documentation
-          </button>
+          </a>
         </div>
       </div>
     </div>
